@@ -1,0 +1,74 @@
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.heroContainer {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.vectorImage {
+  display: block;
+  height: auto;
+}
+
+.textContent {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -80%);
+  color: #000000;
+  text-align: center;
+}
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .primaryBtn, .secondaryBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .primaryBtn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .secondaryBtn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #fff;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: fit-content;
+}
+
+.backgroundImage {
+    position: relative;
+    width: 200px;
+    opacity: 0.5;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.foregroundImage {
+    position: relative;
+    width: 150px;
+    z-index: 1;
+    margin-top: -100px;
+}
+
+  

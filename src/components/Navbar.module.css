@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+  }
+  
+  .navList {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .navList li a {
+    color: #150202;
+    text-decoration: none;
+    padding: 0.5rem 1rem;       /* Adds padding inside each rectangle */
+    background-color: #fff;     /* Background color for rectangle */
+    border-radius: 20px;        /* Rounds the corners */
+    transition: background-color 0.3s,
+    color 0.3s;
+    border: 2px solid #150202;
+    display: inline-block;
+  }
+  
+  .freeTrialBtn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .freeTrialBtn:hover {
+    background-color: #218838;
+  }
+  
